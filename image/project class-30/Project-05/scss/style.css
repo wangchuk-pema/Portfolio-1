@@ -1,0 +1,568 @@
+* {
+  font-family: "Roboto";
+}
+
+.header_section {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: rgb(15, 23, 42);
+}
+.header_section .header_container {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: rgb(15, 23, 42);
+}
+.header_section .header_container .logo {
+  padding-left: 90px;
+  align-items: center;
+  margin-top: 10px;
+}
+.header_section .header_container .menu {
+  display: flex;
+  justify-content: space-between;
+}
+.header_section .header_container nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header_section .header_container ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  list-style: none;
+  margin-top: 10px;
+}
+.header_section .header_container li a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  gap: 20px;
+  color: white;
+}
+
+.btn {
+  padding: 5px 20px;
+  align-items: center;
+  background-color: rgb(147, 51, 234);
+  color: black;
+  border-radius: 5px;
+  margin-right: 95px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.btn a {
+  color: white;
+}
+
+.about_section {
+  width: 100%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCOhKNq-vn8qDqThcvBEtfQ9-LLELcuKiJZY-w_XGMR3ck8D1NcXx8YmzsXlKQFqmdA_4&usqp=CAU);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about_section .container {
+  width: 100%;
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: left;
+}
+.about_section .container .About_myself {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: left;
+}
+.about_section .container .About_myself .p1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: white;
+}
+.about_section .container .About_myself h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  padding-top: 20px;
+  color: #ffffff;
+}
+.about_section .container .About_myself h1 {
+  padding-top: 30px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 67.2px;
+  text-align: left;
+  color: #ffffff;
+}
+.about_section .container .About_myself p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #ffffff;
+}
+.about_section .container button {
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  border-color: rgb(147, 51, 234);
+  background-color: rgb(147, 51, 234);
+}
+
+.Resume_section {
+  width: 100%;
+  padding: 60px 0px;
+  gap: 60px;
+  background-color: rgb(255, 255, 255);
+}
+.Resume_section .container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}
+.Resume_section .container .info {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.Resume_section .container .image {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.Resume_section .container .image img {
+  border-radius: 50px;
+}
+.Resume_section .container h2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+.Resume_section .container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
+}
+.Resume_section .container p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+.Resume_section .container .btn {
+  display: flex;
+  flex-direction: column;
+  margin-right: 310px;
+  border-radius: 5px;
+  border-color: rgb(147, 51, 234);
+  color: #ffffff;
+}
+
+.skill_section {
+  background-color: rgb(244, 244, 244);
+  padding: 40px 0px;
+}
+.skill_section .heading {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.skill_section .container {
+  position: relative;
+  gap: 48px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.skill_section .container .booking {
+  width: 20%;
+  text-align: center;
+  margin-top: 100px;
+}
+.skill_section .container .sub_booking {
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 90px;
+  justify-content: center;
+  align-items: top;
+  text-align: justify;
+  box-sizing: border-box;
+}
+.skill_section .container .sub_booking .h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  align-items: left;
+}
+.skill_section .container .sub_booking .p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.skill_section .container .sub_booking li {
+  list-style: none;
+  text-align: left;
+}
+.skill_section .container .sub_booking a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.skill_section .container .image {
+  width: 50%;
+}
+.skill_section .container .image .tag-1 {
+  position: relative;
+  top: 95px;
+  left: 160px;
+  border-radius: 50px;
+}
+.skill_section .container .image .tag-2 {
+  position: relative;
+  top: 205px;
+  left: 160px;
+  border-radius: 50px;
+}
+.skill_section .container .image .tag-3 {
+  width: 34%;
+  position: relative;
+  top: 75px;
+  left: 160px;
+  border-radius: 50px;
+}
+.skill_section .container .image .tag-4 {
+  position: relative;
+  top: 60px;
+  left: -220px;
+  border-radius: 50px;
+}
+.skill_section .container .image .tag-5 {
+  width: 40%;
+  position: relative;
+  top: 75px;
+  left: 140px;
+  border-radius: 20px;
+}
+.skill_section .container .schedule {
+  width: 20%;
+  text-align: center;
+}
+.skill_section .container .sub_schedule {
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 90px;
+}
+.skill_section .container h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  align-items: left;
+}
+.skill_section .container p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.skill_section .container li {
+  list-style: none;
+  text-align: left;
+}
+.skill_section .container a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.skill_section .button {
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 450px;
+  margin-top: 40px;
+}
+.skill_section .button-1 {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: transparent;
+}
+
+.department_section {
+  width: 100%;
+  padding: 90px 64px;
+  background-color: rgb(244, 244, 244);
+}
+.department_section .container {
+  width: 100%;
+  gap: 50px;
+  padding: 90px 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.department_section .container .HD {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.department_section .container .HD h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+}
+.department_section .container .HD h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  text-align: center;
+}
+.department_section .container .HD p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+.department_section .container .sub_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.department_section .container .sub_container .box {
+  padding: 24px 16px 24px 16px;
+  gap: 20px;
+  border-radius: 5px 0px 0px 0px;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+}
+.department_section .container h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.department_section .container p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.department_section button {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 520px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+.contact-section .container-fluid {
+  padding: 112px 70px;
+}
+.contact-section .container-fluid .contact-header {
+  text-align: center;
+}
+.contact-section .container-fluid .contact-header h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.contact-section .container-fluid .contact-header p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+.contact-section .container-fluid .contact-detail {
+  display: flex;
+  justify-content: space-between;
+  gap: 19px;
+}
+.contact-section .container-fluid .contact-detail .email svg {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 24px;
+}
+.contact-section .container-fluid .contact-detail .email a {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+.contact-section .container-fluid .contact-detail .email h6 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.contact-section .container-fluid .contact-detail .email p {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.enroll_form .container-fluid {
+  background-color: #f7f7f7;
+  padding: 100px 70px;
+}
+.enroll_form .container-fluid .sub-form {
+  padding-right: 50px;
+}
+.enroll_form .container-fluid .sub-form .about_heading p {
+  font-size: 18px;
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+.enroll_form .container-fluid .sub-form .about_heading p:nth-child(1) {
+  font-size: 16px;
+}
+.enroll_form .container-fluid .sub-form .about_heading h1 {
+  font-size: 48px;
+}
+.enroll_form .container-fluid .sub-form .about_heading .form-check {
+  margin-left: 12px;
+}
+.enroll_form .container-fluid .sub-form .form .form-check {
+  margin-left: 12px;
+}
+.enroll_form .container-fluid .sub-form .form .form-check .form-check-input {
+  border: 1px solid black;
+}
+.enroll_form .container-fluid .sub-form .form button {
+  margin-top: 24px;
+  border-color: rgb(147, 51, 234);
+  padding: 0px 30px;
+}
+.enroll_form .container-fluid .about_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.fotter_section {
+  background-color: rgb(15, 23, 42);
+}
+.fotter_section .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10px;
+  gap: 5px;
+}
+.fotter_section .form {
+  width: 40%;
+}
+.fotter_section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.fotter_section button {
+  padding-bottom: 10px 10px;
+  color: black;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+}
+.fotter_section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 30px;
+  color: white;
+}
+.fotter_section .about {
+  width: 20%;
+  gap: 16px;
+  margin-left: 60px;
+}
+.fotter_section nav {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+}
+.fotter_section ul {
+  list-style: none;
+  align-items: left;
+  text-align: left;
+}
+.fotter_section li a {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+}
+.fotter_section .services {
+  width: 20%;
+}
+.fotter_section .social_media {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  gap: 50px;
+  margin-right: 400px;
+}
+.fotter_section .social_media a {
+  color: white;
+  font-size: 30px;
+}
+
+hr {
+  color: white;
+}
+
+.base {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding-left: 60px;
+  gap: 400px;
+  border-top: 1px solid black;
+}
+.base .menu {
+  display: flex;
+  flex-direction: row;
+  text-decoration: underline;
+}
+.base ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.base li a {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
